@@ -1,5 +1,5 @@
 
-# ManuNFT Decentralized Marketplace
+# AsifNFT Decentralized Marketplace
 With this marketplace, anyone can create the NFTs.  To create the NFTs you must have to connect with the Metamask wallet.  Anyone can also sell and buy NFTs on this AsifNFT Marketplace plateform.  We have deployed on Sepolia Testnetwork and also tested on Local Network with Truffle.
 
 Live Demo : https://anaxindialtd.com/manunft/
@@ -19,7 +19,7 @@ Install these prerequisites to complete the project.
 
 
 ## Step 1. Clone the project
-`git clone https://github.com/mkbhiva/ManuNFT-Marketplace <PROJECT NAME>`
+`git clone https://github.com/CoderBoy-786/NFT-MarketPlace.git <PROJECT NAME>`
 
 ## Step 2. Install dependencies
 ```sh
@@ -29,9 +29,8 @@ $ yarn install # or npm install
 ## Step 3. Change Infura Credentials
 Open the .env file and update your own Infura details below.
 ```sh
-INFURA_API_KEY = 2S0MHwTSdfdkZqbN034d0fLR8G2wX2p8N
-INFURA_SECRET_KEY = 75173210ca85a0ae343042dfbfbf56e0c62a60b
-
+INFURA_API_KEY = ********
+INFURA_SECRET_KEY = *******
 ```
 
 ## Step 4. Change Sepolia Testnetwork Credentials
