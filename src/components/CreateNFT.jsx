@@ -126,7 +126,7 @@ const client = create({
                           <input
                               type="text"
                           className='block w-full text-sm text-slate-800 focus:outline-none focus:ring-0 rounded-xl border-0 bg-transparent'
-                          placeholder='NFT Title'
+                          placeholder='Product Name'
                           name='title'
                           onChange={(e) => setTitle(e.target.value)}
                           value={title}
@@ -140,7 +140,7 @@ const client = create({
                           <input
                               type="number"
                           className='block w-full text-sm text-slate-800 focus:outline-none focus:ring-0 rounded-xl border-0 bg-transparent'
-                          placeholder='NFT Price (ETH)'
+                          placeholder='Product Price (ETH)'
                           min={0.01}
                           step={0.01}
                           name='price'

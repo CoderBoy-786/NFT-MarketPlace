@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="w-full flex flex-col justify-between bg-gray-900 md:justify-center items-center p-4">
           <div className="w-full flex sm:flex-row flex-col justify-between items-center my-4">
               <div className="flex flex-[0.25] justify-center items-center">
-                  <div className="text-white font-bold text-3xl">AsifNFT</div>
+                  <div className="text-white font-bold text-3xl">Digital Products</div>
               </div>
 
               <div className="flex flex-1 justify-evenly items-center flex-wrap sm:mt-0 mt-5 w-full text-white text-base text-center">

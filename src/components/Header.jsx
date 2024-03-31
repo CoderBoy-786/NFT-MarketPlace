@@ -8,7 +8,7 @@ const Header = () => {
     <div className='bg-blue-900'>
       <div className='w-4/5 flex justify-between items-center p-3 mx-auto'>
           <div className='text-white text-3xl font-extrabold'>
-              AsifNFT
+              Asif Digital Products
           </div>
 
           <ul className='w-5/12 flex text-white list-none justify-between justify-items-auto'>

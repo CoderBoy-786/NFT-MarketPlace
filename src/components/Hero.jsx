@@ -16,16 +16,16 @@ const Hero = () => {
                     <div>
                         <h1 className='text-5xl font-bold text-blue-900'>
                             Buy and Sell <br />
-                            Digital Arts, <br />
-                            <span>NFTs </span>
-                            collections
+                            Digital Products, <br />
+                            {/* <span>NFTs </span>
+                            collections */}
                         </h1>
-                        <p className='font-semibold mt-3'>Mint and collect the hottest NFTs arround.</p>
+                        <p className='font-semibold mt-3'>Welcome To Blockchain World</p>
                     </div>
                     <div className='flex mt-5'>
                         <button className='shadow-lg shadow-black text-yellow-200 bg-black hover:bg-yellow-200 hover:text-black py-2 px-8 rounded-full'
                             onClick={() => setGlobalState('modal', 'scale-100')}
-                        >Create NFT</button>
+                        >Update Product</button>
                     </div>
                     <div className='w-3/4 flex justify-between items-center mt-10'>
                         <div className='text-blue-900'>
@@ -34,11 +34,11 @@ const Hero = () => {
                         </div>
                         <div className='text-blue-900'>
                             <p className='font-bold text-3xl'>860K</p>
-                            <small className='text-black font-semibold text-lg'>Artworks</small>
+                            <small className='text-black font-semibold text-lg'>Products</small>
                         </div>
                         <div className='text-blue-900'>
                             <p className='font-bold text-3xl'>200K</p>
-                            <small className='text-black font-semibold text-lg'>Artist</small>
+                            <small className='text-black font-semibold text-lg'>Seller</small>
                         </div>
                     </div>
                 </div>

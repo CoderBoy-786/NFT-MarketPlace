@@ -54,7 +54,7 @@ contract AsifNFT is ERC721Enumerable, Ownable {
         uint256 salesPrice
     ) external payable {
         require(msg.value >= cost, "Ether too low for minting!");
-        require(existingURIs[metadataURI] == 0, "This NFT is already minted!");
+        require(existingURIs[metadataURI] == 0, "This product is already minted!");
 
         uint256 royality = (msg.value * royalityFee) / 100;
         payTo(artist, royality);
